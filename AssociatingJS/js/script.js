@@ -2,10 +2,10 @@
 //Treating strings like numbers and vice versa
 
 var stringVar = "6";
-var result = 7 + stringVar;
+var result = 7 + Number(stringVar);
 
 console.log(result);
 
-//adds the numbers like strings rather than numbers
+//adding Number before stringVar tells it to treat it like a number
 
 
