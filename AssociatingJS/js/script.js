@@ -9,6 +9,12 @@ var quiz4 = 80;
 
 var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
 
-console.log(average);
+//console.log(average);
+
+var lenght = 7;
+var width = 6;
+var perimeter = lenght * 2 + width * 2;
+
+console.log(perimeter);
 
 
