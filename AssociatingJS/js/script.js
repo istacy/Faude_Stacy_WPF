@@ -1,12 +1,12 @@
-// Expressions - Casting
-//Treating strings like numbers and vice versa
+// Expressions - Assignment Operators
+//An Expression with Assignment
 
-var areaCode = 715;
-var firstPart = 503;
-var secPart = 5088;
+var a = 3;
 
-//(715) 503-5088
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secPart);
-console.log(phoneNo);
+//a = a + 4; //always make sure storage container is on left
 
-//displays all numbers formatting
+a += 4;  //+= is an assignment operator
+
+//a = a / 4
+
+console.log(a);
