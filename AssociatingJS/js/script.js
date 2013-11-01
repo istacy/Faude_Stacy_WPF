@@ -3,7 +3,7 @@
 //area of the triangle is half the width times the height
 var width = 4;
 var height = 5;
-var area = width * height;
+var area = width/2 * height;
 
 console.log(area);
 
