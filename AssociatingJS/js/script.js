@@ -1,8 +1,8 @@
 // Expressions - Concatenating Strings
 //Combining Strings
 
-var a = "6";
-var b = "7";
+var a = 6;
+var b = 7;
 
 var result = a + b;
 console.log(result);
