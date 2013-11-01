@@ -1,10 +1,5 @@
-// Arrays
+// Basic Expressions
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+var a = 2;
 
-muppetNames[1] = "Rizzo"; //change index #1 to Rizzo
-muppetNames[2] = "Fozzy";
-
-var num = 2;
-
-console.log(muppetNames[num]);
+console.log(a);
