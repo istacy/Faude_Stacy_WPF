@@ -1,10 +1,11 @@
-// Expressions - Concatenating Strings
-//Combining Strings
+// Expressions - Casting
+//Treating strings like numbers and vice versa
 
-var a = 6;
-var b = 7;
+var stringVar = "6";
+var result = 7 + stringVar;
 
-var result = a + b;
 console.log(result);
+
+//adds the numbers like strings rather than numbers
 
 
