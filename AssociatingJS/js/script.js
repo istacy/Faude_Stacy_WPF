@@ -1,7 +1,7 @@
-// Basic Expressions
+// Example Expressions  - Age
 
-var a = 2; //sets up our variable a and defines it with a value of 2
-var b;
-b = a + 3; //add 3 to a
+var yearBorn = 1985;
+var age = 2013 - yearBorn;
 
-console.log(a);
+console.log(age);
+
