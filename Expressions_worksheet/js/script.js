@@ -3,22 +3,16 @@
 // Assignment:  Expressions Worksheet
 
 
-//Slice of Pie part 1
+//Average Shopping Bill
 
-//Given:
-var slicesPerPizza = 8;
-var partyPeople = 10;
-var numOfPizzas = 4;
+//Array with 5 weekly grocery totals
+//(120.25, 45.45, 76.54, 51.99, 23.88)
 
-var iEat;
+var grocerys = [120.25, 45.45, 76.54, 51.99, 23.88];
 
-// Result Variables
-// Number of slices per person
-// var iEat = (slicesPerPizza * numOfPizzas / partyPeople);
+var groceryTotal = grocerys[0] + grocerys[1] + grocerys[2] + grocerys[3] + grocerys[4];
 
-var remainder = (slicesPerPizza * numOfPizzas % partyPeople);
+var groceryAverage = (grocerys[0] + grocerys[1] + grocerys[2] + grocerys[3] + grocerys[4]) / 5;
 
 
-
-console.log("Sparky got " + remainder + " slices of pizza.");
-
+console.log("You have spent a total of $" + groceryTotal + " on groceries over 5 weeks. That is an average of $" + groceryAverage + " per week.")
