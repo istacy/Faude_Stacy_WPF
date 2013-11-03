@@ -23,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="19" selection-start="901" selection-end="901" vertical-scroll-proportion="0.7237937" vertical-offset="0" max-vertical-offset="601">
+            <state line="5" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.12479201" vertical-offset="0" max-vertical-offset="601">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -64,6 +55,7 @@
         <option value="$PROJECT_DIR$/Expressions_worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/AssociatingJS/js/script.js" />
         <option value="$PROJECT_DIR$/Expressions_Personal/js/script.js" />
+        <option value="$PROJECT_DIR$/Expressions_Industry/js/script.js" />
       </list>
     </option>
   </component>
@@ -128,7 +120,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_Personal" />
+              <option name="myItemId" value="Expressions_Industry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -142,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Expressions_Personal" />
+              <option name="myItemId" value="Expressions_Industry" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -265,6 +257,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="559" selection-end="559" vertical-scroll-proportion="0.42429283" vertical-offset="0" max-vertical-offset="601">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
@@ -272,9 +273,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="901" selection-end="901" vertical-scroll-proportion="0.7237937" vertical-offset="0" max-vertical-offset="601">
+        <state line="5" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.12479201" vertical-offset="0" max-vertical-offset="601">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
