@@ -3,13 +3,16 @@
 // Assignment:  Expressions Worksheet
 
 
-//Calculate the area of a rectangle given the width and height
+//The circumference of a circle is C=πd^2
 
-//The area of a rectangle is the width * height
+//Calculate the Circumference of a Circle
 
-var width = 4;
-var height = 5;
+var radius = 6;
+const PI = 3.14159265;
 
-var area = width * height;
+//multiply 2, PI and the radius & assign to circ variable.
 
-console.log(area + " " + "feet");
+var circ = radius * 2 * PI;
+
+//print out the output circumference
+console.log("The circumference of the circle is " + circ);
