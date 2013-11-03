@@ -12,4 +12,4 @@ var height = 5;
 
 var area = width * height;
 
-console.log(area);
+console.log(area + " " + "feet");
