@@ -7,15 +7,18 @@
 
 //Given:
 var slicesPerPizza = 8;
-var partyPeople = 4;
-var numOfPizzas = 2;
+var partyPeople = 10;
+var numOfPizzas = 4;
 
 var iEat;
 
-//Result Variables
-//Number of slices per person
+// Result Variables
+// Number of slices per person
+// var iEat = (slicesPerPizza * numOfPizzas / partyPeople);
 
-var iEat = (slicesPerPizza * numOfPizzas / partyPeople);
+var remainder = (slicesPerPizza * numOfPizzas % partyPeople);
 
-console.log("Each person ate " + iEat + " slices of pizza at the party.");
+
+
+console.log("Sparky got " + remainder + " slices of pizza.");
 
