@@ -3,16 +3,11 @@
 // Assignment:  Expressions Worksheet
 
 
-//The circumference of a circle is C=πd^2
+//Calculating dog years
 
-//Calculate the Circumference of a Circle
+var humanyears = 2;
+var dogyears;
 
-var radius = 6;
-const PI = 3.14159265;
+dogyears = humanyears * 7;
 
-//multiply 2, PI and the radius & assign to circ variable.
-
-var circ = radius * 2 * PI;
-
-//print out the output circumference
-console.log("The circumference of the circle is " + circ);
+console.log("Sparky is " + humanyears + " human years old which is " + dogyears + " in dog years")
