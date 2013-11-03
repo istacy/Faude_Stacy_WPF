@@ -3,11 +3,19 @@
 // Assignment:  Expressions Worksheet
 
 
-//Calculating dog years
+//Slice of Pie part 1
 
-var humanyears = 2;
-var dogyears;
+//Given:
+var slicesPerPizza = 8;
+var partyPeople = 4;
+var numOfPizzas = 2;
 
-dogyears = humanyears * 7;
+var iEat;
 
-console.log("Sparky is " + humanyears + " human years old which is " + dogyears + " in dog years")
+//Result Variables
+//Number of slices per person
+
+var iEat = (slicesPerPizza * numOfPizzas / partyPeople);
+
+console.log("Each person ate " + iEat + " slices of pizza at the party.");
+
