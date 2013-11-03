@@ -1,10 +1,10 @@
-// Expressions - Assignment Operators
-//An Expression with Assignment
+// Basic Expressions
+// Calculating with & Changing the values and variables
+// adding three to the variable
 
-var a = 3;
+var a = 2;
+var b;
 
-a --;  // same as a = a - 1 // a -= 1
-
-
+b = a + 3;
 
 console.log(a);
