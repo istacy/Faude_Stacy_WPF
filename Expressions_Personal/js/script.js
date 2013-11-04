@@ -23,6 +23,7 @@ var HoursJob1 = prompt("Please enter the number of hours you worked at Marathon 
 //User enters how many hours of overtime was worked in one week
 var overTimeJob1 = prompt("How many hours of overtime did you work?");
 
+//Calculation for overtime for job1
 overTimeJob1 = wageJob1 * 1.5;
 
 //Enter in projects finished at Virtual Vision
