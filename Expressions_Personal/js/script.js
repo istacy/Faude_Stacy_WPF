@@ -14,8 +14,10 @@ alert("This will calculate your weekly gross pay from \n Marathon Cheese and Vir
 //Variable for job1
 var job1 = "Marathon Cheese"
 
-
+//User enters current wage for job1
 var wageJob1 = prompt("Please enter your hourly wage for Marathon Cheese.");
+
+
 var HoursJob1 = prompt("Please enter the number of hours you worked at Marathon Cheese.");
 var overTimeJob1 = prompt("How many hours of overtime did you work?");
 
