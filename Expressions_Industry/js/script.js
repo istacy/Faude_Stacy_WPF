@@ -42,4 +42,6 @@ var total = (noPages * pageCost) + (imagesDigital * imageDigitalCost) + (imagesP
 
 console.log(total); //prints price out to console
 
+
+//This is an alert
 alert("The estimated total cost of your website would be $" + total);
