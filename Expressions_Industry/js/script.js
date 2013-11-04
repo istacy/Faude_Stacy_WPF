@@ -38,7 +38,7 @@ var scripts = prompt("About how many interactive Graphic Scripts? \n (Image Maps
 //Calculating total cost of the website
 
 var total = (noPages * pageCost) + (imagesDigital * imageDigitalCost) + (imagesPhotos * imagePhotoCost) + (animation * animationCost) + (scripts * scriptCost);
-var total = (noPages * pageCost) + (imagesDigital * imageDigitalCost) + (imagesPhotos * imagePhotoCost) + (animation * animationCost) + (scripts * scriptCost);
+
 
 console.log(total); //prints price out to console
 
