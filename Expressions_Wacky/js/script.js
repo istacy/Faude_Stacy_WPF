@@ -3,7 +3,7 @@
 // Assignment:  Expressions Personal
 
 //What am I calculating?
-//How much fruit do I have left
+//Price per mile picking up my friends
 
 //Enter Your Information
 
@@ -20,7 +20,11 @@ var myFriends = new Array();
     myFriends["Liz"]=653;
     myFriends["Kira"]=478;
 
-var gasUsed = prompt("Please enter how many gallons of gas you purchased.")
+var gasUsed = prompt("Please enter how many gallons of gas you purchased.");
 
 
 //mpg = (endMiles - startingMiles) / gasUsed
+
+var pickingUp = prompt("What friend are you picking up? \n  Please select 1-5" + myFriends[0]);
+
+var
