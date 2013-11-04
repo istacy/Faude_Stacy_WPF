@@ -15,6 +15,7 @@ var pageCost = 100;
 var imageDigitalCost = 5;
 //Cost to turn photograph into digital image
 var imagePhotoCost = 10;
+//Animation Cost
 var animationCost = 50;
 var scriptCost = 25;
 
