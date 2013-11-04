@@ -29,7 +29,11 @@ overTimeJob1 = wageJob1 * 1.5;
 //Enter in projects finished at Virtual Vision
 //Pay for Virtual Vision is $250 per project.
 
+
+//Variable for job2
 var job2 = "Virtual Vision"
+
+
 var projectsJob2 = prompt("Please enter how many projects you finished this week.");
 var wageJob2 = 250;
 
