@@ -19,14 +19,19 @@ var gasUsed = prompt("Please enter how many gallons of gas you purchased.");
 //This is where you enter the price per gallon
 var gasPrice = prompt("Please enter the price per gallon.");
 
-var endMiles = prompt("Please enter your ending milage.");
+//This is where you enter your ending mileage
+var endMiles = prompt("Please enter your ending mileage.");
 
-//var pickingUp = prompt("What friend are you picking up? \n  Please select 1-5" + myFriends[0]);
+//var pickingUp = prompt("What friend are you picking up?);
 //var myFriends = ["Matthew", "Tyler", "Stephanie", "Liz", "Kira"];
 
 //alert("These are your friends you are picking up:" (myFriends[0], myFriends[1], myFriends[2], myFriends[3], myFriends[4], myFriends[5]));
+
+
+//Calculations
 //mpg = (endMiles - startingMiles) / gasUsed
 
+//This Calculates the total miles driven
 var milesDriven = endMiles - startingMiles;
 
 var milesPerGallon = milesDriven / gasUsed;
