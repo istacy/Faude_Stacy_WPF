@@ -13,6 +13,7 @@ alert("This will estimate the cost of a new website design");
 var pageCost = 100;
 //Digital Image Cost
 var imageDigitalCost = 5;
+//Cost to turn photograph into digital image
 var imagePhotoCost = 10;
 var animationCost = 50;
 var scriptCost = 25;
