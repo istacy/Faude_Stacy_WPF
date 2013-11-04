@@ -3,6 +3,8 @@
 // Assignment:  Expressions Personal
 
 //What am I calculating?
+
+//This is an alert
 alert("This will calculate your weekly gross pay from \n Marathon Cheese and Virtual Vision.");
 
 //Enter in hourly wage and hours worked for Marathon Cheese
