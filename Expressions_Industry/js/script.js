@@ -17,6 +17,7 @@ var imageDigitalCost = 5;
 var imagePhotoCost = 10;
 //Animation Cost
 var animationCost = 50;
+//Graphic Script cost
 var scriptCost = 25;
 
 //Number of Pages
