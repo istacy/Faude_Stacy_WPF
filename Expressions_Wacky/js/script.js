@@ -29,4 +29,6 @@ var endMiles = prompt("Please enter your ending milage.")
 
 //var pickingUp = prompt("What friend are you picking up? \n  Please select 1-5" + myFriends[0]);
 
-var pricePerGallon = ((endMiles - startingMiles) / gasUsed) / gasPrice
+var pricePerGallon = (((endMiles - startingMiles) / gasUsed)) / gasPrice)
+
+console.log(pricePerGallon)
