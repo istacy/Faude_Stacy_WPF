@@ -33,7 +33,7 @@ overTimeJob1 = wageJob1 * 1.5;
 //Variable for job2
 var job2 = "Virtual Vision"
 
-
+//User enters how many projects were finished this week
 var projectsJob2 = prompt("Please enter how many projects you finished this week.");
 var wageJob2 = 250;
 
