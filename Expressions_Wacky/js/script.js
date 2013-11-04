@@ -29,6 +29,6 @@ var milesPerGallon = milesDriven / gasUsed;
 
 var pricePerMile = milesPerGallon / gasPrice;
 
-var info = prompt("You have driven " + milesDriven + " and get about " + milesPerGallon + " miles per gallon, spending $" + pricePerMile + "per mile.");
+var info = prompt("You have driven " + milesDriven + " and get about " + milesPerGallon + " miles per gallon, spending about " + pricePerMile + "cents per mile.");
 
 console.log(milesPerGallon);
