@@ -4,6 +4,8 @@
 
 //Web site design calculator
 
+
+//This is an alert
 alert("This will estimate the cost of a new website design");
 
 //Set Costs
