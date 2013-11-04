@@ -9,7 +9,9 @@
 alert("This will estimate the cost of a new website design");
 
 //Set Costs
+//Page Costs
 var pageCost = 100;
+//Digital Image Cost
 var imageDigitalCost = 5;
 var imagePhotoCost = 10;
 var animationCost = 50;
