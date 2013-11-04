@@ -34,6 +34,7 @@ var endMiles = prompt("Please enter your ending mileage.");
 //This Calculates the total miles driven
 var milesDriven = endMiles - startingMiles;
 
+//This calculates your miles per gallon
 var milesPerGallon = milesDriven / gasUsed;
 
 var pricePerMile = milesPerGallon / gasPrice;
