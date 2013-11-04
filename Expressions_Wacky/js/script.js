@@ -16,6 +16,7 @@ var startingMiles = prompt("Please enter your cars current mileage.");
 //This is where you enter how many gallons of gas you purchased
 var gasUsed = prompt("Please enter how many gallons of gas you purchased.");
 
+//This is where you enter the price per gallon
 var gasPrice = prompt("Please enter the price per gallon.");
 
 var endMiles = prompt("Please enter your ending milage.");
