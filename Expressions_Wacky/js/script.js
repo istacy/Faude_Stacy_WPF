@@ -10,3 +10,5 @@
 var firstName = prompt("Please enter your first name.");
 var lastName = prompt("Please enter your last name.");
 var city = prompt("Please enter the city you live in.");
+var myFriends = ("Matthew", "Tyler", "Stephanie", "Liz", "Kira");
+
