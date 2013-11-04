@@ -17,8 +17,10 @@ var job1 = "Marathon Cheese"
 //User enters current wage for job1
 var wageJob1 = prompt("Please enter your hourly wage for Marathon Cheese.");
 
-
+//User enters hours worked in one week
 var HoursJob1 = prompt("Please enter the number of hours you worked at Marathon Cheese.");
+
+
 var overTimeJob1 = prompt("How many hours of overtime did you work?");
 
 overTimeJob1 = wageJob1 * 1.5;
