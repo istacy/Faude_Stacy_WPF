@@ -7,8 +7,10 @@
 
 //Enter Your Information
 
+//This is an alert
 alert("Please fill up your car with gas before starting!");
 
+//This is where you enter your Starting Mileage
 var startingMiles = prompt("Please enter your cars current mileage.");
 
 var gasUsed = prompt("Please enter how many gallons of gas you purchased.");
