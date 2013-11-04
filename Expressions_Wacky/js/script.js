@@ -9,9 +9,9 @@
 
 alert("Please fill up your car with gas before starting!");
 
-var currentMiles = prompt("Please enter your cars current mileage.");
+var startingMiles = prompt("Please enter your cars current mileage.");
 
-var city = prompt("Please enter the city you live in.");
+var gasPrice = prompt("Please enter the price per gallon.");
 
 var myFriends = new Array();
     myFriends["Matthew"]=21;
@@ -20,8 +20,7 @@ var myFriends = new Array();
     myFriends["Liz"]=653;
     myFriends["Kira"]=478;
 
-var gas = prompt("Please enter how many gallons of gas you purchased.")
+var gasUsed = prompt("Please enter how many gallons of gas you purchased.")
 
 
-
-
+//mpg = (endMiles - startingMiles) / gasUsed
