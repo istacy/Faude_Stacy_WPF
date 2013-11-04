@@ -39,9 +39,11 @@ var projectsJob2 = prompt("Please enter how many projects you finished this week
 //User knows pay rate is $250 per project
 var wageJob2 = 250;
 
-//
+//Calculation
 var grossPay = (wageJob1 * HoursJob1) + overTimeJob1 + (projectsJob2 * wageJob2); //calculates Gross Pay
+
 
 console.log(grossPay); //prints it out to console
 
+//This is an alert
 alert("Your gross pay for " + job1 + " and" + job2 + "is:  $" + grossPay);
