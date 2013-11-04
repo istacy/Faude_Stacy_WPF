@@ -7,9 +7,14 @@
 //This is an alert
 alert("This will calculate your weekly gross pay from \n Marathon Cheese and Virtual Vision.");
 
+
+//Enter in current job information
 //Enter in hourly wage and hours worked for Marathon Cheese
 
+//Variable for job1
 var job1 = "Marathon Cheese"
+
+
 var wageJob1 = prompt("Please enter your hourly wage for Marathon Cheese.");
 var HoursJob1 = prompt("Please enter the number of hours you worked at Marathon Cheese.");
 var overTimeJob1 = prompt("How many hours of overtime did you work?");
