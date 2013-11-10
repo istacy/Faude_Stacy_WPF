@@ -15,3 +15,17 @@ if(kidHeight  > minHeight){
     //code performed if condition is false
     console.log("Sorry Kid, you've got some growing to do!");
 }
+
+//Relational Operators
+//< less than
+//> greater than
+//<= less than or equal to
+//>== greater than or equal to
+
+//Equality Operators
+//== equality or "the same as"
+//=== strict equality
+//!== inequality
+
+//6 number == "6" string computer will say its true
+//6 number === "6" string computer will say its false
