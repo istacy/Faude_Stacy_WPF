@@ -1,31 +1,40 @@
-//Conditional Logic - With an Expressions
+//Conditional Logic - Logical Operators
 
-var kidHeight = 52;
-var minHeight = 48;
+var budget = 300;
+var iPhonePrice = 199.99;
+var payCheck = 200;
 
-
-//if the child is old enough, print to the console "you can ride!"
-//if the kid is over 48 inches in height
-
-
-if(kidHeight  > minHeight){
-    //code performed if condition is true
-    console.log("You can ride the coaster!");
+//if the price of the phone is less than our budget AND if our paycheck is over 300
+if(iPhonePrice < budget){
+    console.log("We can buy the phone!");
+}else {
+    console.log("No phone for you!!");
+}
+if(payCheck > 300){
+    console.log("We can buy the phone!!");
 }else{
-    //code performed if condition is false
-    console.log("Sorry Kid, you've got some growing to do!");
+    console.log("No phone for you!!")
 }
 
+
 //Relational Operators
-//< less than
-//> greater than
-//<= less than or equal to
-//>== greater than or equal to
+// < less than
+// > greater than
+// <= less than or equal to
+// >== greater than or equal to
 
 //Equality Operators
-//== equality or "the same as"
-//=== strict equality
-//!== inequality
+// == equality or "the same as"
+// === strict equality
+// !== inequality
+// ^Exclusive or (XOR)
+// ! not
+
+
+//Logical Operators
+// && and
+// || or
+
 
 //6 number == "6" string computer will say its true
 //6 number === "6" string computer will say its false
