@@ -11,22 +11,29 @@ if(iPhonePrice < budget || wonLottery){
     console.log("No phone for you!!");
 }
 
+// a!=b the same as !(a===b)
+//a<b the same as !(a<b)
+
+//Check to see if a, b, and c all have the same values
+// a === b ===c  this will not work
+//a === b && b === c
 
 
-//Relational Operators
+
+//Relational Operators - go in between PAIRS of objects
 // < less than
 // > greater than
 // <= less than or equal to
 // >== greater than or equal to
 
-//Equality Operators
+//Equality Operators - go in between relational expressions or boolean values
 // == equality or "the same as"
 // === strict equality
 // !== inequality
 // ^Exclusive or (XOR)
-// ! not
+// ! not (flips the meaning of the object)
 
-//Logical Operators
+//Logical Operators - Always work in pairs.
 // && and
 // || or
 
