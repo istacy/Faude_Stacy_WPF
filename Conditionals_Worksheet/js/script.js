@@ -14,20 +14,22 @@ if(weight >= 250){
     console.log("The competitor needs to gain some wieght")
 }*/
 
+
+//Group 1
 //Celsius to Fahrenheit Converter
 //Celsius = ((F-32)/1.8000)
 
 var degree = 100;
-var unit = prompt("Please enter a f for Fahrenheit or a c for Celcius");
+var unit = prompt("Please enter a f for Fahrenheit or a c for Celsius");
 
 var calcCelsius = ((degree - 32) / 1.8000);
 
 if (unit = f){
-        console.log("The temperature is " + degree + "degrees")
-}
-if(unit = c){
+    console.log("The temperature is " + degree + "degrees");
+}else{
     console.log("The temperature is " + calcCelsius + " degrees");
 }
+
 
 
 /*console.log("The temperature is "+ calcCelsius + " Celsius. or The temperature is " + degree + " Fahrenheit.");*/
