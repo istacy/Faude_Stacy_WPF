@@ -20,15 +20,14 @@ if(weight >= 250){
 var degree = 100;
 var unit = prompt("Please enter a f for Fahrenheit or a c for Celcius");
 
-var calcCelcius = ((degree - 32) / 1.8000);
+var calcCelsius = ((degree - 32) / 1.8000);
 
-if(unit = c){
-    (calcCelcius)
-}
 if (unit = f){
-        (degree)
+        console.log("The temperature is " + degree + "degrees")
+}
+if(unit = c){
+    console.log("The temperature is " + calcCelsius + " degrees");
 }
 
 
-
-console.log("The temperature is "+ calcCelcius + " Celsius. or The temperature is " + degree + " Fahrenheit.");
+/*console.log("The temperature is "+ calcCelsius + " Celsius. or The temperature is " + degree + " Fahrenheit.");*/
