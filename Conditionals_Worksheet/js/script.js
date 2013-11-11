@@ -19,17 +19,17 @@ if(weight >= 250){
 //Celsius to Fahrenheit Converter
 //Celsius = ((F-32)/1.8000)
 
-/*var degree = 100;
+var degree = 32;
 var unit = prompt("Please enter a f for Fahrenheit or a c for Celsius");
 
 var calcCelsius = ((degree - 32) / 1.8000);
 
-if(unit = f){
-    console.log("The temperature is " + degree + "degrees");
-}else{
-    console.log("The temperature is " + calcCelsius + " degrees");
+if(unit = "f"){
+    console.log("The temperature is " + degree + " degrees Fahrenheit");
 }
-*/
+if(unit = "c"){
+    console.log("The temperature is " + calcCelsius + " degrees Celsius");
+}
 
 
 /*console.log("The temperature is "+ calcCelsius + " Celsius. or The temperature is " + degree + " Fahrenheit.");*/
@@ -40,7 +40,7 @@ if(unit = f){
 //Full Sails Graduate Grade Scale
 
 //Given: grade - in percent
-
+/*
 var grade = 95;
 
 
@@ -68,7 +68,7 @@ if(grade >= 95){
 }
 
 console.log("You have a " + grade + " %, which means you have earned a(n)" + finalGrade + " in the class!");
-
+*/
 
 //Group 3
 //Movie Ticket Price
