@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Worksheet/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +29,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="419" selection-end="419" vertical-scroll-proportion="0.39933443" vertical-offset="0" max-vertical-offset="660">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="2" column="3" selection-start="36" selection-end="58" vertical-scroll-proportion="0.049916804" vertical-offset="0" max-vertical-offset="1185">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,14 +155,6 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -172,6 +163,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -231,22 +230,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="780">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state line="31" column="0" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="600">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="780">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="45" column="18" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="18" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
@@ -291,26 +289,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="69" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="780">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="46" column="69" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24958402" vertical-offset="0" max-vertical-offset="601">
-          <folding />
-        </state>
+        <state line="9" column="16" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24958402" vertical-offset="0" max-vertical-offset="601" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="419" selection-end="419" vertical-scroll-proportion="0.39933443" vertical-offset="0" max-vertical-offset="660">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="2" column="3" selection-start="36" selection-end="58" vertical-scroll-proportion="0.049916804" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
         </state>
       </provider>
     </entry>
