@@ -18,7 +18,7 @@ if(weight >= 250){
 //Group 1
 //Celsius to Fahrenheit Converter
 //Celsius = ((F-32)/1.8000)
-
+/*
 var degree = 32;
 var unit = prompt("Please enter a f for Fahrenheit or a c for Celsius");
 
@@ -30,7 +30,7 @@ if(unit = "f"){
 if(unit = "c"){
     console.log("The temperature is " + calcCelsius + " degrees Celsius");
 }
-
+*/
 
 /*console.log("The temperature is "+ calcCelsius + " Celsius. or The temperature is " + degree + " Fahrenheit.");*/
 
@@ -75,7 +75,9 @@ console.log("You have a " + grade + " %, which means you have earned a(n)" + fin
 //The local movie theater in town has a ticket price of $12.00 but if you are a senior (55 and older), under 10 you get the discounted price of $7.00. In addition, if a customer is seeing a movie between 3pm and 5pm they can also get the discounted price.
 //Determine which of the two prices the customer is eligible for.
 
-//var timeOfMovie = 3;
-//var age = 28;
+var timeOfMovie = 3;
+var age = 28;
+
+
 
 
