@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Worksheet/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Worksheet/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,10 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="36" selection-end="58" vertical-scroll-proportion="0.049916804" vertical-offset="0" max-vertical-offset="1185">
-              <folding />
+            <state line="84" column="0" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.57570714" vertical-offset="989" max-vertical-offset="1635">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -233,7 +234,9 @@
     <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="600">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -294,13 +297,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24958402" vertical-offset="0" max-vertical-offset="601" />
+        <state line="9" column="16" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24958402" vertical-offset="0" max-vertical-offset="601">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="36" selection-end="58" vertical-scroll-proportion="0.049916804" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
+        <state line="84" column="0" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.57570714" vertical-offset="989" max-vertical-offset="1635">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
