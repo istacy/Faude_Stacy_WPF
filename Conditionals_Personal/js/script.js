@@ -10,10 +10,24 @@ alert("There are currently " + apples + " apples, " + bananas + " bananas, " + o
 
 var eat = prompt("How many apples would you like to eat?", "1");
 
-var eaten = parseInt(eat);
-if(eaten > 5){
-    console.log("Sorry but there are only 5 apples. You can not eat " + eaten + " apples!");
+var eaten  = parseInt(eat);
+if(isNaN(eaten)){
+    console.log("You must enter a valid number of apples!");
+    eatApples();
+} else if(eaten > apples){
+    console.log("Sorry, but there are only " + apples + " apples.  You can not eat " + eaten + "apples!");
+    eatApples();
+} else if(eaten < 0){
+    console.log("Sorry, but you can not eat less than 0 apples!");
+    eatApples();
 } else {
     apples -= eaten;
-    console.log("Now there are only " + apples + " apples!");
+    alert("Now there are only " + apples + " apples!");
+    if(apples > 0){
+        if(confirm("Would you like to eat more apples?")){
+            eatApples();
+        }
+    } else {
+        console.log("All of the apples are now gone!");
+    }
 }
