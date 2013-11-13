@@ -1,10 +1,19 @@
-//Prompt and Alert
+//Stacy Faude
+//11-13-13
+//Conditionals - Personal Calculation
 
-var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width");
+var apples = 5
+var bananas = 6
+var oranges = 3
 
-var height = prompt("Please enter the height");
-var area = width * height; //calculates with that info
+alert("There are currently " + apples + " apples, " + bananas + " bananas, " + oranges + " oranges");
 
-//console.log(area); //prints it out to console
+var eat = prompt("How many apples would you like to eat?", "1");
 
-alert("The area of your rectangle is " + area);
+var eaten = parseInt(eat);
+if(eaten > 5){
+    console.log("Sorry but there are only 5 apples. You can not eat " + eaten + " apples!");
+} else {
+    apples -= eaten;
+    console.log("Now there are only " + apples + " apples!");
+}
