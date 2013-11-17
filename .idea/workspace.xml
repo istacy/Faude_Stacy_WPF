@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Industry/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Industry/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="50" selection-end="250" vertical-scroll-proportion="0.12479201" vertical-offset="0" max-vertical-offset="601">
+            <state line="13" column="14" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33163264" vertical-offset="0" max-vertical-offset="870">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -350,7 +349,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="50" selection-end="250" vertical-scroll-proportion="0.12479201" vertical-offset="0" max-vertical-offset="601">
+        <state line="13" column="14" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33163264" vertical-offset="0" max-vertical-offset="870">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
