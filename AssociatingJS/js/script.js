@@ -127,9 +127,26 @@ function calcAreaP(width, height){
 
 //Anonymous Functions
 //also called closures
+/*
+
+function functionName(){
+
+}
 
 var functionName = function(){
     //code the function runs
 }
 
 functionName();
+ */
+
+//Function - Anonymous Function Calc Area
+var calcArea = function (width, height){ //defining
+    //code the function runs
+    var area = width * height;
+    return area;
+}
+
+var a = calcArea(20, 30); //invoking
+
+console.log(a);
