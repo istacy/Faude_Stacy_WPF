@@ -1,10 +1,16 @@
-//Prompt and Alert
+//Stacy Faude
+//11-13-13
+//Conditionals - Industry Calculation
 
-var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width");
 
-var height = prompt("Please enter the height");
-var area = width * height; //calculates with that info
+var age = 21;
+var maxAge = 100;
+var minAge = 18;
 
-//console.log(area); //prints it out to console
-
-alert("The area of your rectangle is " + area);
+if(age > minAge){
+    if(age <= maxAge){
+        console.log("You meet the requirements");
+    } else{
+        console.log("You are too old");
+    }
+}
