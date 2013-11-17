@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Industry/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Industry/js/script.js" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,20 +26,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33163264" vertical-offset="0" max-vertical-offset="870">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+            <state line="11" column="80" selection-start="218" selection-end="218" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="601">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -73,8 +62,8 @@
         <option value="$PROJECT_DIR$/Conditionals/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
-        <option value="$PROJECT_DIR$/Conditionals_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Industry/js/script.js" />
       </list>
     </option>
   </component>
@@ -338,18 +327,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="33" column="24" selection-start="54" selection-end="816" vertical-scroll-proportion="0.81632656" vertical-offset="15" max-vertical-offset="870">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="255" selection-end="255" vertical-scroll-proportion="0.33163264" vertical-offset="0" max-vertical-offset="870">
+        <state line="11" column="80" selection-start="218" selection-end="218" vertical-scroll-proportion="0.29950082" vertical-offset="0" max-vertical-offset="601">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
