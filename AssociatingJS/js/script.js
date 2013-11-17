@@ -99,3 +99,37 @@ function dogYears(age){
 var age1 = 3;
 dogYears(age1);
 
+// Functions - Returning Values
+
+var total = calcArea(30, 20);
+
+function calcArea(w, h){
+    var area = w * h;
+    return area; //function spitting the info out
+}
+console.log(total);
+
+//Function vs Procedure
+//Functions return values
+//Procedure dont return values
+
+//This is a function
+function calcAreaF(width, height){
+    var area = width * height;
+    return area;
+}
+
+//This is a procedure
+function calcAreaP(width, height){
+    var area = width * height;
+    console.log(area); //no return
+}
+
+//Anonymous Functions
+//also called closures
+
+var functionName = function(){
+    //code the function runs
+}
+
+functionName();
