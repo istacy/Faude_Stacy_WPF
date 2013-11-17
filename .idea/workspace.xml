@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.61538464" vertical-offset="1101" max-vertical-offset="1740">
+            <state line="24" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.60096157" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -66,7 +67,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="763" />
+    <option name="x" value="629" />
     <option name="y" value="22" />
     <option name="width" value="811" />
     <option name="height" value="747" />
@@ -97,7 +98,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,6 +150,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,14 +159,6 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -174,6 +167,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -199,7 +200,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="763" y="22" width="811" height="747" extended-state="0" />
+    <frame x="629" y="22" width="811" height="747" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -235,11 +236,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
@@ -299,34 +296,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="54" selection-end="816" vertical-scroll-proportion="0.81632656" vertical-offset="15" max-vertical-offset="870">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="33" column="24" selection-start="54" selection-end="816" vertical-scroll-proportion="0.81632656" vertical-offset="15" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.61538464" vertical-offset="1101" max-vertical-offset="1740">
+        <state line="24" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.60096157" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
