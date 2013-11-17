@@ -4,7 +4,7 @@
 
 
 //Hex color
-var hex = "#fA0";
+var hex = "#fff";
 //Convert to RGB
 var rgb = hex2rgb(hex);
 
