@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="5" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.89850247" vertical-offset="0" max-vertical-offset="645">
+            <state line="8" column="18" selection-start="171" selection-end="171" vertical-scroll-proportion="0.19966722" vertical-offset="0" max-vertical-offset="601">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -62,14 +63,15 @@
         <option value="$PROJECT_DIR$/Expressions_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Worksheet/js/script.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="518" />
+    <option name="x" value="710" />
     <option name="y" value="22" />
-    <option name="width" value="919" />
+    <option name="width" value="727" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -98,7 +100,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,6 +152,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,14 +202,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="518" y="22" width="919" height="724" extended-state="0" />
+    <frame x="710" y="22" width="727" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22633298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2861073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -234,9 +236,22 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Expressions_Industry/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="780" />
+        <state line="14" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Personal/js/script.js">
@@ -289,37 +304,28 @@
         <state line="9" column="16" selection-start="240" selection-end="240" vertical-scroll-proportion="0.24958402" vertical-offset="0" max-vertical-offset="601" />
       </provider>
     </entry>
-    <entry file="file:///Volumes/GREEN/javaXML/Week7_Mar8/Starting_DonsPizza/pizza.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0" vertical-offset="747" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/GREEN/javaXML/Week8_Mar15/BMI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.5" vertical-offset="36" max-vertical-offset="885">
-          <folding />
-        </state>
+        <state line="82" column="0" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0" vertical-offset="747" max-vertical-offset="1335" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conditionals_Wacky/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.89850247" vertical-offset="0" max-vertical-offset="645">
+        <state line="8" column="18" selection-start="171" selection-end="171" vertical-scroll-proportion="0.19966722" vertical-offset="0" max-vertical-offset="601">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
