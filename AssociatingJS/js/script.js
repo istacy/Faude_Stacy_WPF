@@ -43,7 +43,7 @@ function calcArea(){
     console.log(area);
 }
 
-calcArea();
+calcArea(); // This executes the function
 
 //Function - Variable Scope
 //always prefer to use the vairable within its own function
@@ -61,4 +61,41 @@ calcArea();
 
 //Functions - Arguments and Parameters
 //Getting stuff into a function
+/*
+funcName(arument1, argumet2); //function call
+
+function funcName(parameter1, parameter2){ //function definition
+    //code the function runs
+}
+
+*/
+
+//Functions - Parameters and Arguments
+
+calcArea(30, 20);
+
+function calcArea(w, h){// w=30, h=20
+    var area = w * h;
+    console.log(area);
+}
+
+//calc dog years
+
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.")
+}
+
+dogYears(4);
+dogYears(5);
+
+//calc dog years another way
+
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.")
+}
+
+var age1 = 3;
+dogYears(age1);
 
