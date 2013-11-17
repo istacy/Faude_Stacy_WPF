@@ -1,10 +1,12 @@
-//Prompt and Alert
+//While Loop
 
-var width = prompt("We are calculating the area of a rectangle. \nPlease enter the width");
+console.log('------ Loops -------');
 
-var height = prompt("Please enter the height");
-var area = width * height; //calculates with that info
+// sets up the index
+var b = 10;
 
-//console.log(area); //prints it out to console
-
-alert("The area of your rectangle is " + area);
+// checks the condition
+while (b > 0){
+    console.log(b + 'kegs on the wall');
+    b--; // increments or decrements the index
+}
