@@ -17,7 +17,7 @@ function calcArea(w, h){
 console.log("----- Circumference of a circle -----");
 
 //circumference of the circle = 2 * radius * PI
-var rad = calcCirc(5)
+var rad = calcCirc(5);
 
 function calcCirc(radius){
     var circ = 2 * radius * 3.1415;
@@ -25,3 +25,18 @@ function calcCirc(radius){
 }
 
 console.log("The circumference of the circle is " + rad );
+
+//STUNG!
+//It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
+
+console.log("----- Stung! -----");
+
+function howManyStings(){
+    var weight = 130;
+    var stingsPerLbs = 8.666666667
+    var killStings = stingsPerLbs * weight
+    console.log("It takes " + killStings + " to kill this animal.");
+}
+howManyStings();
+
+
