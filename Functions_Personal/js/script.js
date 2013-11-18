@@ -8,6 +8,7 @@
 //703 is a conversion factor
 //< 18.5 underweight, 18.5-24.9 Normal, 25.0-29.9 overweight, 30+ obese
 
+userAlert = alert("According to the Panel on Energy, Obesity, and Body Weight Standards published by American Journal of Clinical Nutrition, this will calclulate your BMI.")
 
 function calcBmi() {
     var w = prompt("Please enter your weight");
@@ -17,7 +18,7 @@ function calcBmi() {
     heightFeetConvert = heightFeet * 12;
     h = heightFeetConvert + heightInches;
 
-    displaybmi = (w / (h * h) * 703);
+    displaybmi = (w * 703) / (h * h);
 
         if (displaybmi <18.5)
             console.log("You are Underweight, your BMI is: " + displaybmi);
