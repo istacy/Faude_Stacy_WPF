@@ -1,44 +1,31 @@
 //Stacy Faude
-//Functions Worksheet
+//Functions - Wacky Calculator
 //Nov 17, 2013
 
-//Example Calculate the area of a rectangle
-console.log("----- Example Problem -----");
+//Calculates your Blood Alcohol Content based on the quantity of beverages consumed
+//fluid ounces consumed: Beer-12oz, WineGlass-4oz, Shot-1.5oz
+//Alcohol percentage in beverage: Beer-4-4.5%, Wine-15-20%, Shot-30-50%
+//Hours consuming drink
 
-calcArea(5, 6);
+var userAlert = alert("This will calculate your Blood Alcohol Content");
 
-function calcArea(w, h){
-    var area = w * h;
-    console.log("The Area of Rectangle is " + area);
+function solveBAC(bac) {
+    var ounces = prompt("Enter the number of ounces you drank: ");
+    var percent = prompt("Enter the percent of alcohol in your drinks: ");
+    var weight = prompt("Enter your weight: ");
+    var hours = prompt("Enter the number of hours you have been drinking: ");
+
+    var result = (ounces * percent * 0.075 / weight) - (hours * 0.015);
+    if (result < 0) {
+        console.log("There is a negligible amount of alcohol in your system.  You are not legally intoxicated.");
+        result = "-- neglible amount --";
+    }
+    else {
+        if (result == "NaN")
+            console.log("Please try again.");
+        if (result > 0.08)
+            console.log("In MOST and possibly ALL states you would be considered intoxicated and arrested for DUI.");
+        if (result < 0.08)
+            console.log("You are not legally intoxicated");
+    }
 }
-
-//Calculate the Circumference of a circle
-
-console.log("----- Circumference of a circle -----");
-
-//circumference of the circle = 2 * radius * PI
-var rad = calcCirc(5);
-
-function calcCirc(radius){
-    var circ = 2 * radius * 3.1415;
-    return circ;
-}
-
-console.log("The circumference of the circle is " + rad );
-
-//STUNG!
-//It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
-
-//Title
-console.log("----- Stung! -----");
-
-//Function Execution
-function howManyStings(){ //function name
-    var weight = 240;
-    var stingsPerLbs = 8.666666667
-    var killStings = stingsPerLbs * weight //code the function runs
-    console.log("It takes " + killStings + " to kill this animal.");
-}
-howManyStings();
-
-
