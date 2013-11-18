@@ -9,23 +9,24 @@
 
 var userAlert = alert("This will calculate your Blood Alcohol Content");
 
-function solveBAC(bac) {
+function solveBAC(result) {
     var ounces = prompt("Enter the number of ounces you drank: ");
     var percent = prompt("Enter the percent of alcohol in your drinks: ");
     var weight = prompt("Enter your weight: ");
     var hours = prompt("Enter the number of hours you have been drinking: ");
 
+//Calculation for BAC
     var result = (ounces * percent * 0.075 / weight) - (hours * 0.015);
+
     if (result < 0) {
         console.log("There is a negligible amount of alcohol in your system.  You are not legally intoxicated.");
-        result = "-- neglible amount --";
-    }
-    else {
+    } else {
         if (result == "NaN")
             console.log("Please try again.");
         if (result > 0.08)
-            console.log("In MOST and possibly ALL states you would be considered intoxicated and arrested for DUI.");
+            console.log("In MOST and possibly ALL states you would be considered intoxicated and arrested for DUI!!!");
         if (result < 0.08)
-            console.log("You are not legally intoxicated");
+            console.log("You are not legally intoxicated!");
     }
 }
+solveBAC();

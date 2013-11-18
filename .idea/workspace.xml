@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a743e9bd-7c64-4861-899b-21b3b9cf3f17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Industry/js/script.js" afterPath="$PROJECT_DIR$/Functions_Industry/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Worksheet/js/script.js" afterPath="$PROJECT_DIR$/Functions_Worksheet/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Faude_Stacy_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="401" selection-end="402" vertical-scroll-proportion="0.26442307" vertical-offset="0" max-vertical-offset="624">
+            <state line="17" column="21" selection-start="696" selection-end="696" vertical-scroll-proportion="0.40865386" vertical-offset="0" max-vertical-offset="624">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -41,7 +40,7 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="39" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="26" column="48" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="705">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -365,7 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="39" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="705">
+        <state line="26" column="48" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="705">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -374,7 +373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="401" selection-end="402" vertical-scroll-proportion="0.26442307" vertical-offset="0" max-vertical-offset="624">
+        <state line="17" column="21" selection-start="696" selection-end="696" vertical-scroll-proportion="0.40865386" vertical-offset="0" max-vertical-offset="624">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

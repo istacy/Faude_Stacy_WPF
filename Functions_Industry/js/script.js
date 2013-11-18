@@ -26,12 +26,12 @@ function adCalc(sell) {
     if (cost != "" && exposures != ""){
         cpm = ((1000 / exposures) * cost); ok++;
     }
-    console.log("The cost per thousand impressions is " + cpm);
+    console.log("The cost per thousand impressions is $." + cpm);
 // solve for cost
     if (cpm != "" && exposures != ""){
         cost = cpm / (1000 / exposures);   ok++;
     }
-    console.log("The cost of the ad will be " + cost);
+    console.log("The cost of the ad will be $" + cost);
 
 // they did not enter at least 2 fields
     if (!ok) alert(incomplete);
