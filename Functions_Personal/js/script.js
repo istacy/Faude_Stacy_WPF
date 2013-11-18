@@ -1,44 +1,34 @@
 //Stacy Faude
-//Functions Worksheet
-//Nov 17, 2013
+//Functions - Personal Calculator
+//Nov 18, 2013
 
-//Example Calculate the area of a rectangle
-console.log("----- Example Problem -----");
+//This script analyzses your BMI
 
-calcArea(5, 6);
+//Calculation: (weight / (height in Inches)^2) * 703
+//703 is a conversion factor
+//< 18.5 underweight, 18.5-24.9 Normal, 25.0-29.9 overweight, 30+ obese
 
-function calcArea(w, h){
-    var area = w * h;
-    console.log("The Area of Rectangle is " + area);
+
+function calcBmi() {
+    var w = prompt("Please enter your weight");
+    var heightFeet = prompt("Please enter how many feet your are tall:");
+    var heightInches = prompt("Please enter inches");
+
+    heightFeetConvert = heightFeet * 12;
+    h = heightFeetConvert + heightInches;
+
+    displaybmi = (w / (h * h) * 703);
+
+        if (displaybmi <18.5)
+            console.log("You are Underweight, your BMI is: " + displaybmi);
+        if (displaybmi >=18.5 && displaybmi <=24.9)
+            console.log("You are Desirable, your BMI is: " + displaybmi);
+        if (displaybmi >=25 && displaybmi <=29.9)
+            console.log("You are prone to health risks, your BMI is: " + displaybmi);
+        if (displaybmi >=30 && displaybmi <=40)
+            console.log("You are Obese, you BMI is: " + displaybmi);
+        if (displaybmi >40)
+            console.log("You are Extremely obese, your BMI is: " + displaybmi);
 }
 
-//Calculate the Circumference of a circle
-
-console.log("----- Circumference of a circle -----");
-
-//circumference of the circle = 2 * radius * PI
-var rad = calcCirc(5);
-
-function calcCirc(radius){
-    var circ = 2 * radius * 3.1415;
-    return circ;
-}
-
-console.log("The circumference of the circle is " + rad );
-
-//STUNG!
-//It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
-
-//Title
-console.log("----- Stung! -----");
-
-//Function Execution
-function howManyStings(){ //function name
-    var weight = 240;
-    var stingsPerLbs = 8.666666667
-    var killStings = stingsPerLbs * weight //code the function runs
-    console.log("It takes " + killStings + " to kill this animal.");
-}
-howManyStings();
-
-
+calcBmi();
