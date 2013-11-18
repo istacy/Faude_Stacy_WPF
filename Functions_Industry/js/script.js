@@ -1,44 +1,42 @@
 //Stacy Faude
-//Functions Worksheet
-//Nov 17, 2013
+//Functions - Industry Calculator
+//Nov 18, 2013
 
-//Example Calculate the area of a rectangle
-console.log("----- Example Problem -----");
+// Calculation for selling ad banners
+// You only need to enter 2 of the 3 fields
 
-calcArea(5, 6);
+var userAlert = alert("Please enter info for 2 of the 3 items: Ad Cost, Ad CPM, & Ad Exposure.");
 
-function calcArea(w, h){
-    var area = w * h;
-    console.log("The Area of Rectangle is " + area);
+function adCalc(sell) {
+    var ok = 0;
+    var cost = prompt("Enter cost of the ad:");
+    var cpm = prompt("Enter the CPM:");
+    var exposures = prompt("Enter the number of exposures:");
+
+    var complete = "It looks like you entered all the information already!  With this calculator, you just enter two of the fields and it solves for the last one.";
+
+    var incomplete = "Oops!  It doesn't appear you entered enough information.  Please enter at least two entries in order to solve for the other two.";
+
+// solve for exposures
+    if (cost != "" && cpm != ""){
+        exposures = ((cost / cpm) * 1000); ok++;
+    }
+    console.log("The number of exposures will be " + exposures);
+// solve for cpm
+    if (cost != "" && exposures != ""){
+        cpm = ((1000 / exposures) * cost); ok++;
+    }
+    console.log("The cost per thousand impressions is " + cpm);
+// solve for cost
+    if (cpm != "" && exposures != ""){
+        cost = cpm / (1000 / exposures);   ok++;
+    }
+    console.log("The cost of the ad will be " + cost);
+
+// they did not enter at least 2 fields
+    if (!ok) alert(incomplete);
+// they filled in all the fields!
+    if (cost != "" && cpm != "" && exposures != "") alert(complete);
 }
 
-//Calculate the Circumference of a circle
-
-console.log("----- Circumference of a circle -----");
-
-//circumference of the circle = 2 * radius * PI
-var rad = calcCirc(5);
-
-function calcCirc(radius){
-    var circ = 2 * radius * 3.1415;
-    return circ;
-}
-
-console.log("The circumference of the circle is " + rad );
-
-//STUNG!
-//It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many bee stings are needed to kill an animal in a function
-
-//Title
-console.log("----- Stung! -----");
-
-//Function Execution
-function howManyStings(){ //function name
-    var weight = 240;
-    var stingsPerLbs = 8.666666667
-    var killStings = stingsPerLbs * weight //code the function runs
-    console.log("It takes " + killStings + " to kill this animal.");
-}
-howManyStings();
-
-
+adCalc();
