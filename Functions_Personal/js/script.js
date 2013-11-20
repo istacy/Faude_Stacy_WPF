@@ -2,13 +2,13 @@
 //Functions - Personal Calculator
 //Nov 18, 2013
 
-//This script analyzses your BMI
+//This script analyses your BMI
 
 //Calculation: (weight / (height in Inches)^2) * 703
 //703 is a conversion factor
 //< 18.5 underweight, 18.5-24.9 Normal, 25.0-29.9 overweight, 30+ obese
 
-userAlert = alert("According to the Panel on Energy, Obesity, and Body Weight Standards published by American Journal of Clinical Nutrition, this will calclulate your BMI.")
+userAlert = alert("According to the Panel on Energy, Obesity, and Body Weight Standards published by American Journal of Clinical Nutrition, this will calculate your BMI.");
 
 function calcBmi() {
     var w = prompt("Please enter your weight");
@@ -18,7 +18,7 @@ function calcBmi() {
     heightFeetConvert = heightFeet * 12;
     h = heightFeetConvert + heightInches;
 
-    displaybmi = (w * 703) / (h * h);
+    displaybmi = (w / (h * h) * 703) * 100;
 
         if (displaybmi <18.5)
             console.log("You are Underweight, your BMI is: " + displaybmi);
